@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+
+img{
+    margin: 30px;
+    width: 150px;
+    object-fit: cover;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    animation-delay: 2s;
+    animation: animation2 0.8s linear;
+}
+img:hover{
+    transform: rotateY(180deg);
+}
+
+h4{
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+}
+
+/* PAGE 1 */
+.top_p1{
+    border: 2px solid #010846;
+    width: 50%;
+    margin: auto;
+    margin-top: -90px;
+    animation: animation1 1s linear;
+}
+
+.header{
+    width: auto;
+    margin: auto;
+    padding: 20px;
+    background-color: #EFEFF1;
+}
+
+.header h1{
+    text-align: center;
+    font-size: 35px;
+    color: #021A61;
+    background-color: #EFEFF1;
+}
+.header h3{
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    background-color: #EFEFF1;
+}
+
+.case_rotate, h3{
+    background-color: #f2f2f2;
+}
+ 
+.paragraphe p{
+    margin: auto;
+    padding: 10px;
+}
+ul{
+    list-style-type: none;
+    margin: 15px 0 15px 40px;
+}
+
+ /* EMOJI  STYLO P1*/
+.fa-solid, .fa-pen{
+    margin-left: 10px
+}
+ /**/
+
+.footer_p1{
+    margin-left: 90px;
+}
+.bottom_p1{
+    margin: 10px;
+    list-style-type: none;
+}
+
+  /* Nom éleve ingé*/
+.stud_ing{
+    margin-bottom: 200px;
+    margin-left: 20px;
+    height: 1px;
+}
+
+ /* INPUT + INPUT SIZE*/
+input{
+    background-color: #F0EFEF;
+    border: none;
+    margin-top: 10px;
+    outline: none;
+}
+input:hover{
+    background-color: #f1f4ff;
+}
+input[type=date]{
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+input[type="number"]{
+    text-align: center;
+}
+input[type=text]{
+    cursor: pointer;
+    text-align: center;
+}
+input[type=text]:hover{
+    background-color: #f1f4ff;
+}
+input[type=text]:focus{
+    background-color: #f1f4ff;
+}
+
+input[type=text]::placeholder{
+    font-style: italic;
+}
+
+label[for=oui]{
+    text-align: center;
+}
+
+input:required:focus:valid,
+input[pattern]:focus:valid {
+    border: 2px solid #b3f3a2;
+    box-shadow: 0 0 2px #b3f3a2;
+}
+
+input:required:focus:invalid,
+input[pattern]:focus:invalid {
+    border: 2px solid #f79c9c;
+    box-shadow: 0 0 2px #f79c9c;
+}
+
+ /* BOUTONS RADIO */
+input[type="radio"]
+{ 
+    appearance: none;
+    width: 15px;
+	height: 15px;
+	border: 2px solid #000;
+	border-radius: 50%;
+    background-clip: content-box;
+    padding: 3px;
+    margin: 2px 2px 2px 2px;
+}
+input[type=radio]:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+input[type="radio"]:checked {
+	background-color: #000;
+    transition: 0.25s ease;
+}
+
+ /*SIZE INPUT*/
+#maitre_app{
+    margin: 0;
+    width: 45%;
+    height: 26px;
+}
+#date_jury{
+    margin: 0;
+    width: 100%;
+    height: 26px;
+}
+#ref_pedago{
+    margin: 0;
+    width: 64%;
+    height: 26px;
+}
+#entreprise{
+    margin: 0;
+    width: 79%;
+    height: 26px;
+}
+#title_mission{
+    margin: 0;
+    height: 26%;
+    width: 650px;
+}
+#cg{
+    margin: 0;
+    width: 100%;
+    height: 50px;
+}
+#deliv_credit{
+    margin: 0;
+    width: 100%;
+    height: 50px;
+}
+#nom_pres{
+    margin: 0;
+    width: 100%;
+    height: 56px;
+}
+
+.xxx{
+    font-weight: bold;
+    background-color: #D1D1D1;
+}
+
+ /* PAGE 2*/
+.p2{
+    margin-left: 350px;
+}
+
+.rotate{
+    width: 80px;
+    padding: 10px;
+    transform: rotate(90deg);
+    text-align: center;
+}
+
+textarea{
+    background-color: #F0EFEF;
+    width: 100%;
+    border: 2px solid #000;
+    border-style: dashed;
+}
+textarea:hover{
+    cursor: pointer;
+    background-color: #f1f4ff;
+}
+textarea:focus{
+    background-color: #f1f4ff;
+}
+
+.emoji{
+    align-items: center;
+    margin: 1px;
+    padding: 2px;
+}
+
+/* TITRE TABLEAU P2 P3 */
+.title_tab_p2,
+.title_tab_p3{
+    text-align: center;
+    background-color: #010846;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* CONTAINER 4 */
+.container4{
+    width: 66%;
+    height: 300px;
+    position: relative;
+    margin-left: 265px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+  
+.container4 table tr td{
+    border: 1px #000821 solid;
+    text-align: center;
+    font-size: 13px;
+    padding: 8px;
+}
+.container4 table tr td input[type=text]{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    outline: none;
+    background-color: #F0EFEF;
+}
+.container4 table tr td input[type=text]:hover{
+    background-color: #f1f4ff;
+}
+.container4 table tr td input[type=text]:focus{
+    background-color: #f1f4ff;
+}
+
+/* CONTAINER 5 */
+.container5{
+    margin-left: 265px;
+    margin-top: 220px;
+    margin-bottom: 50px;
+}
+
+.sign{
+    text-align: center;
+}
+
+/* BOUTON ENVOYER */
+.btn{
+    border: 2px solid;
+    padding: 10px;
+    background-color: #010846;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 730px;
+}
+.btn:hover{
+    cursor: pointer;
+    background: #000;
+    transform: scale(1.1);
+}
+
+/* ICON PDF */
+.download{
+    color: #000;
+    float: right;
+    margin-right: 10px;
+}
+.download:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.pdf{
+    color: #010846;;
+    font-size: 50px;
+}
+
+/* ANIMATION DEBUT DE PAGE */
+@keyframes animation1 {
+    from{
+        transform: translateX(-600px);
+    }
+}
+
+@keyframes animation2 {
+    from{
+        transform: translateY(-100px);
+    }
+}
